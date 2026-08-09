@@ -1,28 +1,21 @@
-AmarGPT Frontend
+# 💻 AmarGPT - Frontend Client
 
-A clean and responsive React (Vite) frontend for the AmarGPT chat application.
-It connects with the AmarGPT backend to provide a seamless chat experience.
+A responsive React 19 single-page application built with Vite, offering a dark-themed ChatGPT-style conversational interface.
 
-Features
+## ⚡ Features
+- **User Authentication**: Login and registration screens with state management via React Context (`MyContext.jsx`).
+- **Rich Markdown Formatting**: Real-time markdown rendering with code syntax highlighting (`react-markdown` + `rehype-highlight` + `github-dark`).
+- **Interactive UI**: Custom typewriter response streaming effect, loading spinners, mobile drawer navigation overlay, and subscription upgrade link.
 
-User Login / Register
+## 🛠️ Environment Configuration (`.env`)
+```env
+VITE_API_URL=http://localhost:3000
+```
 
-Chat interface with Markdown & code highlighting
-
-Display previous threads and chat history
-
-Responsive UI for desktop and mobile
-
-Connects to backend via environment variables
-
-Installation
-
-Clone the repo:
-
-git clone https://github.com/your-username/AmarGPT-F-frontend.git
-
-
-Install dependencies:
-
-cd amargpt-frontend
+## 🚀 Quick Start
+```bash
 npm install
+npm run dev
+```
+
+For full setup details, database schema specifications, and architecture breakdowns, please refer to the [Main Project README](../README.md).
